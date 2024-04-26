@@ -1,0 +1,85 @@
+.sandwich-menu {
+  position: relative;
+  width: 50px;
+}
+
+.sandwich-menu__button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 24px;
+  padding: 10px;
+  color: #333;
+}
+
+.sandwich-menu__list {
+  position: absolute;
+  top: calc(100% + 5px); /* Alinhando logo abaixo do botão */
+  left: 0;
+  width: 180px; /* Ocupando a largura total */
+  background-color: hsl(240, 25%, 98%);
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-top: 0; /* Removendo a margem superior */
+  margin-left: 0; /* Removendo a margem esquerda */
+  list-style-type: none;
+  border-radius: 5px; /* Corrigindo a sintaxe para borda arredondada */
+  color: #131d2c;
+  cursor: pointer;
+  z-index: 100; /* Ajustando o z-index para garantir que o menu esteja acima de outros elementos */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Adicionando uma sombra suave */
+}
+
+.sandwich-menu__list li {
+  padding: 10px 15px; /* Aumentando o espaçamento interno */
+}
+
+.sandwich-menu__list li:hover {
+  background-color: #f0f0f0;
+}
+
+
+
+
+
+
+
+
+
+/* ---------------------------------------- */
+
+/*.sandwich-menu {
+    position: relative;
+  }
+  
+  .sandwich-menu__button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 24px;
+    padding: 10px;
+    color: #333;
+  }
+  
+  .sandwich-menu__list {
+    position: absolute;
+    top: 40px;
+    left: 0;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 10px;
+    list-style-type: none;
+    /*display: none;
+  }
+  
+  /*.sandwich-menu__list li {
+    padding: 5px 0;
+  }
+  
+  .sandwich-menu__list li:hover {
+    background-color: #f0f0f0;
+  }
+  
+  .sandwich-menu__list.visible {
+    display: block;
+  } */

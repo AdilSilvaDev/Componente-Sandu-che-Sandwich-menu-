@@ -1,0 +1,37 @@
+.salvar {
+    background-color:  cornflowerblue; /* Define a cor de fundo do botão */
+    color: rgb(84, 145, 202); /* Define a cor do texto do botão */
+    border: none; /* Remove a borda padrão do botão */
+    padding: 10px 20px; /* Define o preenchimento interno do botão */
+    cursor: pointer; /* Muda o cursor para uma mãozinha quando passa por cima */
+    border-radius: 8px;
+    margin-top: 8px;
+  }
+  
+  .salvar:hover {
+    background-color: blue; /* Define a cor de fundo quando o botão é hover (passado o mouse por cima) */
+  }
+
+.cancelar {
+    background-color: orange;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 8px;
+    margin-top: 8px;
+}
+
+.cancelar:hover{
+    background-color: orangered;
+}
+
+.p{
+    width: 100px;
+}
+.m{
+    width: 150px;
+}
+.g{
+    width: 200px;
+}
